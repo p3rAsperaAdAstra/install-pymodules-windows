@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 REM At the time of the initial commit (18.10.2023) the python version where all the packages are compatible was python 3.9
 REM List of Python libraries to install
-set "modules=matplotlib scipy numpy pandas lxml requests rdkit sympy"
+set "modules=matplotlib scipy numpy pandas lxml requests rdkit sympy beautifulsoup4"
 
 
 REM Install each module using pip
